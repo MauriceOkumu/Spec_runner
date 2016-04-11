@@ -13,16 +13,17 @@ Feel free to use any string methods you wish.
 var printLetter1 = function () { 
   'print the fourth letter in this string'[3];
 
-  return
-};
+  return 'print the fourth letter in this string'[3];
 
+};
+console.log(7);
 /*
 Give back ("return") the input string "concatenated" with 
 the raw string provided
 */
 var bridgeString1 = function(myInputString) {
-  
-  'I wish I could code  in javascript all day, every day!';
 
-  return
+  'I wish I could code  in javascript all day, every day!';
+  
+  return 'I wish I could code  in javascript all day, every day!'+bridgeString1('i love it') ;
 };
